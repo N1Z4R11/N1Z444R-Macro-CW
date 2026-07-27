@@ -1,34 +1,40 @@
-# N1Z444R Macro CW v3.4
+# N1Z444R Macro CW v3.5
 
 Native, configurable input automation for Combat Warriors with continuous playback, a compact HUD, popup recovery, and optional server rotation.
 
-![Main interface](PREVIEW_UI_v3.4.png)
+![Main interface](PREVIEW_UI_v3.5.png)
 
-## Safe default sequence
+## Default sequence
 
-`SPACE → 4 → hold LMB for 2.0–2.5 s → ESC → R → ENTER → wait 6–7 s → repeat`
+`SPACE → 4 → hold LMB for 2.0–2.5 s → ESC → R → ENTER → ESC → wait 6–7 s → repeat`
 
-Version 3.4 sends the reset inputs as rapid **sequential taps**. Every key is released before the next key is pressed. The previous mandatory second `ESC` has been removed because it could reopen the Roblox menu after the reset and break the following cycle.
+The reset stage uses separate taps. Every key is released before the next key is pressed. The last `ESC` now waits for the confirmation transition, reacquires Roblox focus if required, and uses its own longer press.
 
-An optional cleanup key remains available in the sequence editor, but its safe default is `None`.
+Default final-key synchronization:
+
+- Configured delay after `ENTER`: 650 ms.
+- Configured final-key duration: 180 ms.
+- Measured Windows events during verification: approximately 0.8 s delay and 0.23 s press.
 
 ## Sequence editor
 
-![Sequence editor](PREVIEW_EDITOR_v3.4.png)
+![Sequence editor](PREVIEW_EDITOR_v3.5.png)
 
-The editor lets you change:
+The editor now places every label and input inside its own card. Its columns never overlap, so the protected live window matches the preview.
+
+You can configure:
 
 - Both opening keys.
 - The held mouse button.
-- The three reset keys.
-- An optional cleanup key.
-- Regular key press duration.
-- Pause between steps.
-- Pause before reset.
-- Pause between reset taps.
-- Optional cleanup delay and press duration.
+- All three reset keys.
+- The final key.
+- Regular key duration and pauses.
+- Delay before the final key.
+- Final-key press duration.
 
-Saved settings from older versions are migrated to the new safe sequence. Review the sequence editor once after upgrading.
+## Popup recovery
+
+Round-end and central popups now use a verified hover transition before clicking. The pointer moves inside the detected button and performs a deliberate press, with a second input method available for retries.
 
 ## Controls
 
