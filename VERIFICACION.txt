@@ -1,34 +1,26 @@
-N1Z444R MACRO CW v3.1 — VERIFICACIÓN
-====================================
+VERIFICACION DE N1Z444R MACRO CW v3.2
+=====================================
 
 Archivo:
-  N1Z444R_Macro_CW_v3.1_PROTECTED.exe
+N1Z444R_Macro_CW_v3.2_PROTECTED.exe
 
-Versión:
-  3.1.0.0
+Version:
+3.2.0.0
 
-Tamaño:
-  475136 bytes
+Tamano:
+478720 bytes
 
 SHA-256:
-  BCEC5DCF372BBD49437E8B6F6DC5590782623A10BAAD16C29F0F5FD259D10F7C
+7F6378559027F8007C5E8AB7D5E758BE7E8293A4D7BC5F2741A9FDA365ABFBC9
 
-Pruebas realizadas:
-  [OK] Secuencia ESPACIO → 4 → clic → ESC + R + ENTER.
-  [OK] Las tres teclas finales se solapan y se liberan correctamente.
-  [OK] Espera antes de iniciar el ciclo siguiente.
-  [OK] Secuencia alternativa Q → E → clic derecho → A + S + D.
-  [OK] Editor de secuencia en compilación normal y protegida.
-  [OK] Parada total F3 en compilación normal y protegida.
-  [OK] Pop-up Friends Online y resultados Round Ended.
-  [OK] Reintento si el primer clic en CLOSE se ignora.
-  [OK] Microsoft Defender: 0 amenazas coincidentes.
-  [OK] Nombres internos ausentes en el binario protegido.
+Comprobaciones realizadas:
 
-Protecciones:
-  - Renombrado de símbolos
-  - Cifrado de constantes y recursos
-  - Ofuscación de flujo de control
-  - Anti-debug, anti-dump y anti-ILDasm
-  - Anti-tamper
+- Secuencia predeterminada validada con captura de eventos nativos.
+- Secuencia personalizada validada con otras teclas y boton derecho.
+- Orden, solapamiento y tiempos de las cuatro teclas finales validados.
+- Parada total F3 validada sobre el ejecutable protegido.
+- Reintento de clic validado en los dos pop-ups reales proporcionados.
+- Interfaz principal y editor renderizados y revisados.
+- Marcadores internos visibles en el binario original no aparecen en el protegido.
+- Microsoft Defender habilitado y sin amenazas detectadas durante la comprobacion.
 

@@ -1,44 +1,26 @@
-N1Z444R MACRO CW v3.1 — MOTOR NATIVO CONFIGURABLE
-=================================================
+N1Z444R MACRO CW v3.2
+=====================
 
 SECUENCIA PREDETERMINADA
-------------------------
-ESPACIO → 4 → mantener clic izquierdo → ESC + R + ENTER → esperar → repetir
 
-Valores iniciales:
-  - Clic mantenido: entre 2,0 y 2,5 segundos.
-  - Espera antes de repetir: entre 6,0 y 7,0 segundos.
+ESPACIO -> 4 -> mantener clic izquierdo 2-2,5 s
+-> ESC + R + ENTER -> ESC -> esperar 6-7 s -> repetir
 
-EDITOR DE SECUENCIA
--------------------
-Pulsa EDITAR para cambiar las dos teclas iniciales, el botón del ratón mantenido,
-las tres teclas finales y las pausas internas. Selecciona None para omitir una
-tecla. RESTAURAR recupera la configuración recomendada.
+ESC, R y ENTER forman una ráfaga rápida y solapada. Al terminar esa ráfaga,
+la macro hace una segunda pulsación rápida de ESC.
 
-USO RÁPIDO
-----------
+USO
+
 1. Abre Roblox y entra en Combat Warriors.
-2. Ejecuta N1Z444R_Macro_CW_v3.1_PROTECTED.exe.
-3. Ajusta los tiempos o la secuencia si lo necesitas.
-4. Pulsa INICIAR o F8.
-5. Pulsa F3 en cualquier momento para una parada total.
+2. Ejecuta N1Z444R_Macro_CW_v3.2_PROTECTED.exe.
+3. Ajusta teclas, clic y tiempos si lo necesitas.
+4. Inicia la macro.
+5. Pulsa F3 para detener inmediatamente la macro, las teclas y el server-hop.
 
-ATAJOS
-------
-F7   Mostrar u ocultar el mini HUD.
-F8   Iniciar o pausar.
-F3   Parada total y liberación de todas las entradas.
-F9   Parada total alternativa.
-F10  Enfocar Roblox.
+IMPORTANTE
 
-SEGURIDAD
----------
-- F3 cancela también el temporizador de cambio de servidor.
-- El guardia visual cierra pop-ups y resultados de fin de ronda.
-- No modifica Roblox, no inyecta código y no necesita permisos de administrador.
-- La configuración y el registro se guardan en:
-  %LOCALAPPDATA%\N1Z444RMacroCW
-
-La automatización puede estar limitada por las reglas de Roblox o del juego.
-Úsala bajo tu propia responsabilidad y respeta sus términos.
+- Mantén Roblox en primer plano durante la reproducción.
+- El server-hop necesita conexión a Internet y Roblox abierto.
+- Verifica el SHA-256 antes de ejecutar el archivo.
+- El paquete no contiene código fuente.
 

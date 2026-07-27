@@ -1,11 +1,12 @@
-Copyright (c) 2026 N1Z444R. All rights reserved.
+Copyright (c) 2026 N1Z444R
 
-This software is distributed for personal use only. Redistribution, resale,
-repackaging, modification, reverse engineering, decompilation, or creation of
-derivative works is not permitted without prior written permission from the
-copyright holder.
+Todos los derechos reservados.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT
-HOLDER IS NOT LIABLE FOR ACCOUNT ACTIONS, DATA LOSS, OR OTHER DAMAGES ARISING
-FROM ITS USE.
+Se permite descargar y utilizar este programa únicamente para uso personal.
+No se permite copiar, modificar, redistribuir, revender, descompilar,
+desensamblar, realizar ingeniería inversa ni crear obras derivadas.
+
+El programa se proporciona "tal cual", sin garantías de ningún tipo.
+El autor no se responsabiliza de daños, pérdidas, sanciones o consecuencias
+derivadas de su uso.
 

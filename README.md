@@ -1,68 +1,29 @@
-# N1Z444R Macro CW
+# N1Z444R Macro CW v3.2
 
-Macro nativa configurable para Combat Warriors con reproducción continua,
-protección contra interrupciones, mini HUD y rotación opcional de servidor.
+Macro configurable para Combat Warriors con interfaz renovada y ejecución continua.
 
-![Interfaz principal](PREVIEW_UI_v3.1.png)
+## Secuencia predeterminada
 
-## Secuencia v3.1
+`ESPACIO → 4 → mantener clic izquierdo 2–2,5 s → ESC + R + ENTER → ESC → esperar 6–7 s → repetir`
 
-`ESPACIO → 4 → mantener clic izquierdo → ESC + R + ENTER → esperar → repetir`
+`ESC + R + ENTER` se pulsa como una ráfaga solapada. Justo después de soltar esas tres teclas se realiza una nueva pulsación rápida de `ESC`.
 
-Valores predeterminados:
+Todas las teclas, el botón del ratón y los tiempos pueden personalizarse desde el editor de secuencia.
 
-- Clic mantenido entre 2,0 y 2,5 segundos.
-- Espera entre 6,0 y 7,0 segundos antes de repetir.
-- `Esc`, `R` y `Enter` se pulsan con un solape rápido.
+## Controles
 
-## Editor de secuencia
+- Iniciar o detener desde la interfaz.
+- `F3`: parada total inmediata, incluso con la ventana minimizada.
+- Server-hop con intervalo configurable.
+- Detección y cierre de pop-ups y pantallas de fin de ronda.
+- Idiomas incluidos: español, inglés, francés, alemán, portugués, italiano, ruso, turco, polaco y chino simplificado.
 
-![Editor de secuencia](PREVIEW_EDITOR_v3.1.png)
+## Instalación
 
-El botón **EDITAR** permite cambiar:
+1. Descarga `N1Z444R_Macro_CW_v3.2_PROTECTED.exe`.
+2. Abre Roblox y entra en Combat Warriors.
+3. Ejecuta la macro.
+4. Revisa la secuencia y sus tiempos en el editor antes de iniciarla.
 
-- Las dos teclas iniciales.
-- El botón mantenido: izquierdo, derecho o central.
-- Las tres teclas del remate.
-- Duración de cada pulsación.
-- Pausa entre pasos y antes del remate.
-- Velocidad con la que se solapan las teclas finales.
-
-Se puede elegir `None` para omitir cualquier tecla.
-
-## Descargar
-
-[N1Z444R_Macro_CW_v3.1_PROTECTED.exe](N1Z444R_Macro_CW_v3.1_PROTECTED.exe)
-
-SHA-256:
-
-```text
-BCEC5DCF372BBD49437E8B6F6DC5590782623A10BAAD16C29F0F5FD259D10F7C
-```
-
-## Atajos
-
-- `F7`: mostrar u ocultar el mini HUD.
-- `F8`: iniciar o pausar.
-- `F3`: parada total y liberación de todas las entradas.
-- `F9`: parada total alternativa.
-- `F10`: enfocar Roblox.
-
-## Protección
-
-Este repositorio contiene únicamente la distribución compilada. No se publican
-el código fuente, el proyecto de ofuscación ni mapas de símbolos. El ejecutable
-incluye renombrado, cifrado de constantes y recursos, flujo de control protegido,
-anti-debug, anti-dump y anti-tamper.
-
-Ninguna ofuscación puede garantizar que un programa sea imposible de analizar.
-Verifica siempre el hash antes de ejecutarlo.
-
-## Aviso
-
-No modifica ni inyecta código en Roblox; automatiza entradas locales de teclado
-y ratón. La automatización puede estar limitada por las reglas de Roblox o del
-juego. Úsala bajo tu responsabilidad y respeta sus términos.
-
-Copyright © 2026 N1Z444R. Todos los derechos reservados.
+No se publica el código fuente. Comprueba el SHA-256 incluido antes de ejecutar el archivo.
 

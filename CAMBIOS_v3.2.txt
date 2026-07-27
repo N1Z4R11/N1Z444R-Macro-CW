@@ -1,0 +1,17 @@
+CAMBIOS DE N1Z444R MACRO CW v3.2
+================================
+
+- Secuencia corregida:
+  ESPACIO -> 4 -> clic mantenido -> ESC + R + ENTER -> ESC -> espera.
+- Nueva cuarta tecla final configurable, predeterminada en ESC.
+- ESC + R + ENTER se ejecuta como una ráfaga rápida y solapada.
+- La segunda pulsación de ESC ocurre inmediatamente después de la ráfaga.
+- Editor de secuencia ampliado con cuatro teclas finales.
+- Vista compacta de la secuencia activa en el panel principal.
+- Interfaz renovada con tarjetas de degradado, bordes más limpios,
+  botones más definidos y animaciones más suaves.
+- Indicador RAPID x4 y jerarquía visual mejorada.
+- F3 mantiene la parada total global.
+- Se conservan el server-hop configurable, los idiomas y el cierre
+  automático de pop-ups y pantallas de fin de ronda.
+
