@@ -1,29 +1,28 @@
-N1Z444R MACRO CW v3.3 VERIFICATION
+N1Z444R MACRO CW v3.4 VERIFICATION
 =================================
 
 File:
-N1Z444R_Macro_CW_v3.3_PROTECTED.exe
+N1Z444R_Macro_CW_v3.4_PROTECTED.exe
 
 Version:
-3.3.0.0
+3.4.0.0
 
 Size:
-485376 bytes
+486912 bytes
 
 SHA-256:
-3DC5C0EA63704DCADD24868FE4DF181AA893E847B01EF1D7876EE6ED0F493B12
+DF739484788B2ECC9CC6D6AE9B45F9F7132D4E6A6CDAE5C1D8A9D1B7FA79B686
 
 Checks completed:
 
-- Default native sequence order passed.
+- Safe default native sequence order passed.
 - Fully customized native sequence order passed.
-- Final ESC reliability gap and dedicated press duration passed.
-- Measured default final gap: approximately 328 ms from the first ESC release,
-  and approximately 265 ms after the final chord key release.
-- Measured final ESC hold: approximately 154 ms at the Windows event layer.
+- The safe default emitted exactly one ESC press.
+- Every reset key was released before the next key was pressed.
+- Optional cleanup-key delay and dedicated press duration passed.
 - Both supplied popup screenshots passed with the forced retry path.
 - F3 emergency stop passed on the protected executable.
 - Main interface and editor were rendered and visually reviewed.
+- Rounded borders, header spacing, log-button spacing, and long labels were reviewed.
 - Internal identifiers found in the plain build were absent from the protected build.
-- Microsoft Defender real-time protection was enabled and reported no threat for the file.
-
+- Microsoft Defender custom scan reported no threats.

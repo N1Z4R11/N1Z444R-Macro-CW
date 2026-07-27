@@ -1,0 +1,15 @@
+N1Z444R MACRO CW v3.4 CHANGELOG
+===============================
+
+- Rebuilt the reset stage as rapid sequential taps: ESC, R, and ENTER.
+- Guaranteed that every reset key is released before the next key is pressed.
+- Removed the mandatory second ESC from the safe default sequence.
+- Kept a configurable optional cleanup key, disabled by default.
+- Added automatic migration of older saved sequences to the safe default.
+- Hardened key release with cleanup in every completion, cancellation, and error path.
+- Fixed clipped rounded borders by drawing every outline inside its control.
+- Increased title and subtitle spacing.
+- Prevented the log note from overlapping the Open Log button.
+- Constrained translated editor labels so long text cannot cover input controls.
+- Refined status badges and reset-specific wording throughout the UI.
+- Kept F3 emergency stop, popup recovery, mini HUD, languages, and server rotation.

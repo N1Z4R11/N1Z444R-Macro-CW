@@ -1,19 +1,19 @@
-N1Z444R MACRO CW v3.3
+N1Z444R MACRO CW v3.4
 =====================
 
-DEFAULT SEQUENCE
+SAFE DEFAULT SEQUENCE
 
 SPACE -> 4 -> hold left click for 2.0-2.5 seconds
--> ESC + R + ENTER -> ESC -> wait 6-7 seconds -> repeat
+-> ESC -> R -> ENTER -> wait 6-7 seconds -> repeat
 
-ESC, R, and ENTER are sent as a fast overlapping chord. The last ESC is a
-separate press. By default, the macro waits 180 ms after releasing the chord
-and holds the last ESC for 120 ms.
+ESC, R, and ENTER are sent as rapid sequential taps. Each key is released
+before the next key is pressed. The optional cleanup key is disabled by
+default so an extra ESC cannot reopen the Roblox menu.
 
 QUICK START
 
 1. Open Roblox and join Combat Warriors.
-2. Run N1Z444R_Macro_CW_v3.3_PROTECTED.exe.
+2. Run N1Z444R_Macro_CW_v3.4_PROTECTED.exe.
 3. Open the sequence editor and review the configured keys.
 4. Keep Roblox visible and focused.
 5. Start playback.
@@ -21,10 +21,10 @@ QUICK START
 
 TROUBLESHOOTING
 
-- If the last ESC is missed, increase "Delay before final ESC" to 220-300 ms.
-- If a key is not registered, increase its press duration.
-- Close older macro versions from the system tray before opening v3.3.
+- If reset inputs are missed, increase "Pause between reset taps".
+- Leave the optional cleanup key set to None unless your setup requires it.
+- If a regular key is not registered, increase its press duration.
+- Close older macro versions from the system tray before opening v3.4.
 - Server rotation requires Roblox to be open and an Internet connection.
 
 The package contains no source code.
-

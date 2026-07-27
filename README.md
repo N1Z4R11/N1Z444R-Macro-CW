@@ -1,36 +1,34 @@
-# N1Z444R Macro CW v3.3
+# N1Z444R Macro CW v3.4
 
 Native, configurable input automation for Combat Warriors with continuous playback, a compact HUD, popup recovery, and optional server rotation.
 
-![Main interface](PREVIEW_UI_v3.3.png)
+![Main interface](PREVIEW_UI_v3.4.png)
 
-## Default sequence
+## Safe default sequence
 
-`SPACE → 4 → hold LMB for 2.0–2.5 s → ESC + R + ENTER → ESC → wait 6–7 s → repeat`
+`SPACE → 4 → hold LMB for 2.0–2.5 s → ESC → R → ENTER → wait 6–7 s → repeat`
 
-The first `ESC + R + ENTER` group is a fast overlapping chord. The last `ESC` is a separate input: every chord key is released, a configurable reliability delay is applied, and then `ESC` is held for its own configurable duration.
+Version 3.4 sends the reset inputs as rapid **sequential taps**. Every key is released before the next key is pressed. The previous mandatory second `ESC` has been removed because it could reopen the Roblox menu after the reset and break the following cycle.
 
-Default reliability timing:
-
-- Delay before the last `ESC`: 180 ms.
-- Last `ESC` press duration: 120 ms.
-- Older saved configurations are automatically migrated so the fourth key is `ESC`, not `Enter`.
+An optional cleanup key remains available in the sequence editor, but its safe default is `None`.
 
 ## Sequence editor
 
-![Sequence editor](PREVIEW_EDITOR_v3.3.png)
+![Sequence editor](PREVIEW_EDITOR_v3.4.png)
 
 The editor lets you change:
 
 - Both opening keys.
 - The held mouse button.
-- All four finishing keys.
+- The three reset keys.
+- An optional cleanup key.
 - Regular key press duration.
 - Pause between steps.
-- Pause before the finishing chord.
-- Chord overlap speed.
-- Delay before the fourth key.
-- Fourth-key press duration.
+- Pause before reset.
+- Pause between reset taps.
+- Optional cleanup delay and press duration.
+
+Saved settings from older versions are migrated to the new safe sequence. Review the sequence editor once after upgrading.
 
 ## Controls
 
@@ -47,4 +45,3 @@ This build does not inject into Roblox or edit game memory; it sends local keybo
 Only the protected compiled distribution is published. Source files, protection projects, symbol maps, and build scripts are not included.
 
 No obfuscation can guarantee that software is impossible to analyze. Verify the SHA-256 digest before running the executable.
-
