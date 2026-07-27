@@ -1,29 +1,50 @@
-# N1Z444R Macro CW v3.2
+# N1Z444R Macro CW v3.3
 
-Macro configurable para Combat Warriors con interfaz renovada y ejecución continua.
+Native, configurable input automation for Combat Warriors with continuous playback, a compact HUD, popup recovery, and optional server rotation.
 
-## Secuencia predeterminada
+![Main interface](PREVIEW_UI_v3.3.png)
 
-`ESPACIO → 4 → mantener clic izquierdo 2–2,5 s → ESC + R + ENTER → ESC → esperar 6–7 s → repetir`
+## Default sequence
 
-`ESC + R + ENTER` se pulsa como una ráfaga solapada. Justo después de soltar esas tres teclas se realiza una nueva pulsación rápida de `ESC`.
+`SPACE → 4 → hold LMB for 2.0–2.5 s → ESC + R + ENTER → ESC → wait 6–7 s → repeat`
 
-Todas las teclas, el botón del ratón y los tiempos pueden personalizarse desde el editor de secuencia.
+The first `ESC + R + ENTER` group is a fast overlapping chord. The last `ESC` is a separate input: every chord key is released, a configurable reliability delay is applied, and then `ESC` is held for its own configurable duration.
 
-## Controles
+Default reliability timing:
 
-- Iniciar o detener desde la interfaz.
-- `F3`: parada total inmediata, incluso con la ventana minimizada.
-- Server-hop con intervalo configurable.
-- Detección y cierre de pop-ups y pantallas de fin de ronda.
-- Idiomas incluidos: español, inglés, francés, alemán, portugués, italiano, ruso, turco, polaco y chino simplificado.
+- Delay before the last `ESC`: 180 ms.
+- Last `ESC` press duration: 120 ms.
+- Older saved configurations are automatically migrated so the fourth key is `ESC`, not `Enter`.
 
-## Instalación
+## Sequence editor
 
-1. Descarga `N1Z444R_Macro_CW_v3.2_PROTECTED.exe`.
-2. Abre Roblox y entra en Combat Warriors.
-3. Ejecuta la macro.
-4. Revisa la secuencia y sus tiempos en el editor antes de iniciarla.
+![Sequence editor](PREVIEW_EDITOR_v3.3.png)
 
-No se publica el código fuente. Comprueba el SHA-256 incluido antes de ejecutar el archivo.
+The editor lets you change:
+
+- Both opening keys.
+- The held mouse button.
+- All four finishing keys.
+- Regular key press duration.
+- Pause between steps.
+- Pause before the finishing chord.
+- Chord overlap speed.
+- Delay before the fourth key.
+- Fourth-key press duration.
+
+## Controls
+
+- `F7`: show or hide the mini HUD.
+- `F8`: start or pause.
+- `F3`: emergency stop and release every active input.
+- `F9`: alternate emergency stop.
+- `F10`: focus Roblox.
+
+## Safety and distribution
+
+This build does not inject into Roblox or edit game memory; it sends local keyboard and mouse input. Automation may be restricted by Roblox or game rules. Use it at your own risk and respect the applicable terms.
+
+Only the protected compiled distribution is published. Source files, protection projects, symbol maps, and build scripts are not included.
+
+No obfuscation can guarantee that software is impossible to analyze. Verify the SHA-256 digest before running the executable.
 
