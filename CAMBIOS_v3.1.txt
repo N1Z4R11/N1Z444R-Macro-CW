@@ -1,0 +1,17 @@
+N1Z444R MACRO CW — CAMBIOS v3.1
+================================
+
+- ENTER añadido al remate: ESC + R + ENTER.
+- Nuevo editor premium de secuencia.
+- Dos teclas iniciales configurables.
+- Tres teclas finales configurables y solapadas.
+- Posibilidad de omitir teclas mediante None.
+- Botón mantenido configurable: izquierdo, derecho o central.
+- Duración de pulsación y pausas internas configurables.
+- Vista previa compacta de la secuencia activa.
+- Toda la configuración se conserva entre sesiones.
+- Editor traducido a español, inglés, francés, ruso, alemán, portugués,
+  italiano, polaco, turco y japonés.
+- F3, guardia de pop-ups y server-hop conservados.
+- Protección máxima regenerada para la versión 3.1.
+

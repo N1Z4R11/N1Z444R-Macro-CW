@@ -1,0 +1,11 @@
+Copyright (c) 2026 N1Z444R. All rights reserved.
+
+This software is distributed for personal use only. Redistribution, resale,
+repackaging, modification, reverse engineering, decompilation, or creation of
+derivative works is not permitted without prior written permission from the
+copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT
+HOLDER IS NOT LIABLE FOR ACCOUNT ACTIONS, DATA LOSS, OR OTHER DAMAGES ARISING
+FROM ITS USE.
+

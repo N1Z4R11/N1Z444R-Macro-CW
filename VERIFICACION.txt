@@ -1,0 +1,34 @@
+N1Z444R MACRO CW v3.1 — VERIFICACIÓN
+====================================
+
+Archivo:
+  N1Z444R_Macro_CW_v3.1_PROTECTED.exe
+
+Versión:
+  3.1.0.0
+
+Tamaño:
+  475136 bytes
+
+SHA-256:
+  BCEC5DCF372BBD49437E8B6F6DC5590782623A10BAAD16C29F0F5FD259D10F7C
+
+Pruebas realizadas:
+  [OK] Secuencia ESPACIO → 4 → clic → ESC + R + ENTER.
+  [OK] Las tres teclas finales se solapan y se liberan correctamente.
+  [OK] Espera antes de iniciar el ciclo siguiente.
+  [OK] Secuencia alternativa Q → E → clic derecho → A + S + D.
+  [OK] Editor de secuencia en compilación normal y protegida.
+  [OK] Parada total F3 en compilación normal y protegida.
+  [OK] Pop-up Friends Online y resultados Round Ended.
+  [OK] Reintento si el primer clic en CLOSE se ignora.
+  [OK] Microsoft Defender: 0 amenazas coincidentes.
+  [OK] Nombres internos ausentes en el binario protegido.
+
+Protecciones:
+  - Renombrado de símbolos
+  - Cifrado de constantes y recursos
+  - Ofuscación de flujo de control
+  - Anti-debug, anti-dump y anti-ILDasm
+  - Anti-tamper
+

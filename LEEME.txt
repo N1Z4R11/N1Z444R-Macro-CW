@@ -1,0 +1,44 @@
+N1Z444R MACRO CW v3.1 — MOTOR NATIVO CONFIGURABLE
+=================================================
+
+SECUENCIA PREDETERMINADA
+------------------------
+ESPACIO → 4 → mantener clic izquierdo → ESC + R + ENTER → esperar → repetir
+
+Valores iniciales:
+  - Clic mantenido: entre 2,0 y 2,5 segundos.
+  - Espera antes de repetir: entre 6,0 y 7,0 segundos.
+
+EDITOR DE SECUENCIA
+-------------------
+Pulsa EDITAR para cambiar las dos teclas iniciales, el botón del ratón mantenido,
+las tres teclas finales y las pausas internas. Selecciona None para omitir una
+tecla. RESTAURAR recupera la configuración recomendada.
+
+USO RÁPIDO
+----------
+1. Abre Roblox y entra en Combat Warriors.
+2. Ejecuta N1Z444R_Macro_CW_v3.1_PROTECTED.exe.
+3. Ajusta los tiempos o la secuencia si lo necesitas.
+4. Pulsa INICIAR o F8.
+5. Pulsa F3 en cualquier momento para una parada total.
+
+ATAJOS
+------
+F7   Mostrar u ocultar el mini HUD.
+F8   Iniciar o pausar.
+F3   Parada total y liberación de todas las entradas.
+F9   Parada total alternativa.
+F10  Enfocar Roblox.
+
+SEGURIDAD
+---------
+- F3 cancela también el temporizador de cambio de servidor.
+- El guardia visual cierra pop-ups y resultados de fin de ronda.
+- No modifica Roblox, no inyecta código y no necesita permisos de administrador.
+- La configuración y el registro se guardan en:
+  %LOCALAPPDATA%\N1Z444RMacroCW
+
+La automatización puede estar limitada por las reglas de Roblox o del juego.
+Úsala bajo tu propia responsabilidad y respeta sus términos.
+
