@@ -1,15 +1,15 @@
-# N1Z444R Macro CW v5.1.3 — Official Clean Build
+# N1Z444R Macro CW v1.0.0 — Official Clean Build
 
 Official Windows distribution by **N1Z444R** for Combat Warriors.
 
 > **Download only from the named assets on the [latest release](https://github.com/N1Z4R11/N1Z444R-Macro-CW/releases/latest).** Do not use old executables or GitHub-generated source archives as installers.
 
-![Official v5.1.3 interface](PREVIEW_UI_v5.1.3.png)
+![Official v1.0.0 interface](PREVIEW_UI_v1.0.0.png)
 
 ## Official files
 
-- `N1Z444R_Macro_CW_v5.1.3_OFFICIAL.exe`
-- `N1Z444R_Macro_CW_v5.1.3_OFFICIAL_CLEAN.zip`
+- `N1Z444R_Macro_CW_v1.0.0_OFFICIAL.exe`
+- `N1Z444R_Macro_CW_v1.0.0_OFFICIAL_CLEAN.zip`
 
 The official ZIP contains one current executable plus README, license, security notice, and SHA-256 manifest. Legacy executables are no longer stored on the main branch.
 
@@ -30,14 +30,14 @@ The official ZIP contains one current executable plus README, license, security 
 
 ## Authenticity
 
-- Version: `5.1.3.0`
-- Build ID: `N1Z444R-CW-5.1.3-OFFICIAL-CLEAN-20260731`
+- Version: `1.0.0.0`
+- Build ID: `N1Z444R-CW-1.0.0-OFFICIAL-CLEAN-20260731`
 - Publisher metadata: `N1Z444R`
-- SHA-256: `27504918C14CE164C5E0C64065A43B65C9D22580AF878B7AE8EF17F867A88EC5`
+- SHA-256: `061AE640FD6C6B9B62756FE3474F7CC49284FEE99EB663292A64E36967E75305`
 
 ## Security
 
-V5.1.3 was rebuilt without the aggressive anti-tamper/obfuscation layer used by legacy protected builds. That layer caused heuristic antivirus detections and made legitimate behavior look suspicious.
+V1.0.0 is the clean baseline, built without the aggressive anti-tamper/obfuscation layer used by legacy protected builds. That layer caused heuristic antivirus detections and made legitimate behavior look suspicious.
 
 The application does not inject into Roblox, modify Roblox memory, bypass anti-cheat systems, install a service, create persistence, upload screenshots, or transmit keyboard input. See [SECURITY.md](SECURITY.md) for an API-by-API explanation.
 

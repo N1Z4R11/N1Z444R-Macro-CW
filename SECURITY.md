@@ -28,4 +28,4 @@ The application contains no upload endpoint, remote shell, command-and-control c
 
 ## Build policy
 
-Starting with v5.1.3, official releases avoid aggressive anti-tamper and maximum-obfuscation presets because they caused antivirus heuristic detections. Authenticity is provided through the permanent N1Z444R watermark, assembly metadata, build ID, official release page, and published SHA-256 hashes.
+The v1.0.0 clean baseline avoids aggressive anti-tamper and maximum-obfuscation presets because they caused antivirus heuristic detections. Authenticity is provided through the permanent N1Z444R watermark, assembly metadata, build ID, official release page, and published SHA-256 hashes.
