@@ -1,0 +1,6 @@
+# Legacy protected binaries are release history only and must never be added
+# back to the main branch or GitHub-generated source archives.
+N1Z444R_Macro_CW_v3.*_PROTECTED.exe
+
+# Executables belong in named GitHub release assets, not the repository tree.
+*.exe

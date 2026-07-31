@@ -1,53 +1,53 @@
-# N1Z444R Macro CW v3.5
+# N1Z444R Macro CW v5.1.3 — Official Clean Build
 
-Native, configurable input automation for Combat Warriors with continuous playback, a compact HUD, popup recovery, and optional server rotation.
+Official Windows distribution by **N1Z444R** for Combat Warriors.
 
-![Main interface](PREVIEW_UI_v3.5.png)
+> **Download only from the named assets on the [latest release](https://github.com/N1Z4R11/N1Z444R-Macro-CW/releases/latest).** Do not use old executables or GitHub-generated source archives as installers.
+
+![Official v5.1.3 interface](PREVIEW_UI_v5.1.3.png)
+
+## Official files
+
+- `N1Z444R_Macro_CW_v5.1.3_OFFICIAL.exe`
+- `N1Z444R_Macro_CW_v5.1.3_OFFICIAL_CLEAN.zip`
+
+The official ZIP contains one current executable plus README, license, security notice, and SHA-256 manifest. Legacy executables are no longer stored on the main branch.
 
 ## Default sequence
 
 `SPACE → 4 → hold LMB for 2.0–2.5 s → ESC → R → ENTER → ESC → wait 6–7 s → repeat`
 
-The reset stage uses separate taps. Every key is released before the next key is pressed. The last `ESC` now waits for the confirmation transition, reacquires Roblox focus if required, and uses its own longer press.
+## Current features
 
-Default final-key synchronization:
+- Normal foreground mode enabled by default.
+- Optional experimental no-focus mode.
+- Center Lock prevents accidental clicks away from the middle of Roblox.
+- Friends Online, Daily Spins, Round Ended, and central popup recovery.
+- Smart final ESC verification.
+- F3 total stop releases keys, mouse buttons, and cursor confinement.
+- Configurable timings, mini HUD, and verified server rotation.
+- Permanent `© N1Z444R • OFFICIAL BUILD` watermark and official build ID.
 
-- Configured delay after `ENTER`: 650 ms.
-- Configured final-key duration: 180 ms.
-- Measured Windows events during verification: approximately 0.8 s delay and 0.23 s press.
+## Authenticity
 
-## Sequence editor
+- Version: `5.1.3.0`
+- Build ID: `N1Z444R-CW-5.1.3-OFFICIAL-CLEAN-20260731`
+- Publisher metadata: `N1Z444R`
+- SHA-256: `27504918C14CE164C5E0C64065A43B65C9D22580AF878B7AE8EF17F867A88EC5`
 
-![Sequence editor](PREVIEW_EDITOR_v3.5.png)
+## Security
 
-The editor now places every label and input inside its own card. Its columns never overlap, so the protected live window matches the preview.
+V5.1.3 was rebuilt without the aggressive anti-tamper/obfuscation layer used by legacy protected builds. That layer caused heuristic antivirus detections and made legitimate behavior look suspicious.
 
-You can configure:
+The application does not inject into Roblox, modify Roblox memory, bypass anti-cheat systems, install a service, create persistence, upload screenshots, or transmit keyboard input. See [SECURITY.md](SECURITY.md) for an API-by-API explanation.
 
-- Both opening keys.
-- The held mouse button.
-- All three reset keys.
-- The final key.
-- Regular key duration and pauses.
-- Delay before the final key.
-- Final-key press duration.
-
-## Popup recovery
-
-Round-end and central popups now use a verified hover transition before clicking. The pointer moves inside the detected button and performs a deliberate press, with a second input method available for retries.
+The executable is not Authenticode-signed because no trusted code-signing certificate is currently available. Windows may therefore display **Unknown publisher** or a SmartScreen reputation warning. Never disable antivirus protection and never restore quarantined legacy builds.
 
 ## Controls
 
-- `F7`: show or hide the mini HUD.
 - `F8`: start or pause.
-- `F3`: emergency stop and release every active input.
-- `F9`: alternate emergency stop.
+- `F3`: total stop.
+- `F7`: show or hide the mini HUD.
 - `F10`: focus Roblox.
 
-## Safety and distribution
-
-This build does not inject into Roblox or edit game memory; it sends local keyboard and mouse input. Automation may be restricted by Roblox or game rules. Use it at your own risk and respect the applicable terms.
-
-Only the protected compiled distribution is published. Source files, protection projects, symbol maps, and build scripts are not included.
-
-No obfuscation can guarantee that software is impossible to analyze. Verify the SHA-256 digest before running the executable.
+Use automation responsibly and respect Roblox and game rules.
