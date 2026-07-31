@@ -2,6 +2,8 @@
 
 Official Windows distribution by **N1Z444R** for Combat Warriors.
 
+Current public baseline: **v1.0.0 Official Clean Build**.
+
 > **Download only from the named assets on the [latest release](https://github.com/N1Z4R11/N1Z444R-Macro-CW/releases/latest).** Do not use old executables or GitHub-generated source archives as installers.
 
 ![Official v1.0.0 interface](PREVIEW_UI_v1.0.0.png)
